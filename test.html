@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Media Query
+</title>
+<style>
+/*By default screen becomes background is white and text is brown in color*/
+body {
+background-color: white;
+color: brown;
+}
+p
+{
+border: solid 2px navy;
+font-size: 24px;
+}
+/*If screen is 800px or less then background is red and text is white in color*/
+@media screen and (max-width: 800px) {
+body {
+background-color: red;
+color: white;
+}
+}
+/*If screen is 550px or less then background is fuchsia and text is white in color*/
+@media screen and (max-width: 550px) {
+body {
+background-color: fuchsia;
+color: white;
+}
+}
+h1
+{
+color: green;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>Decrease or increase the screen size for know media query effect</h1>
+<p>This media query technique is introduced in Cascading Style Sheet 3(CSS3). @media rule is used for include certain block of CSS properties if and only if certain given condition is satisfied. This media query technique is used for accurate responsive websites for smaller screen devices like mobiles, notepads etc.</p>
+<p>In media queries we have breakpoints, if our provided design does not behave same for the breakpoints then this media queries will solve the problem.</p>
+<p>In media queries we have mobile first concept is there, which means designing for mobile devices before designing for desktop devices or any other devices like PCs, super computer etc.
+</p>
+</body>
+</html>
